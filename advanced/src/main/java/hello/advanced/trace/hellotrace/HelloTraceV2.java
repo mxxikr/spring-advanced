@@ -15,17 +15,17 @@ public class HelloTraceV2 {
     public TraceStatus begin(String message) {
         TraceId traceId = new TraceId();
         Long startTimeMs = System.currentTimeMillis();
-        log.info("[" + traceId.getId() +  "]" + addSpace(START_PREFIX, traceId.getLevel()) + message);
+        log.info("[" + traceId.getId() + "] " + addSpace(START_PREFIX, traceId.getLevel()) + message);
 
         return new TraceStatus(traceId, startTimeMs, message);
     }
 
     // V2에서 추가
-    public TraceStatus beginSync(TraceId beforeTraceId,String message) {
+    public TraceStatus beginSync(TraceId beforeTraceId, String message) {
         TraceId nextId = beforeTraceId.createNextId();
         Long startTimeMs = System.currentTimeMillis();
 
-        log.info("[" + nextId.getId() + "]" + addSpace(COMPLETE_PREFIX, nextId.getLevel()) + message);
+        log.info("[" + nextId.getId() + "] " + addSpace(START_PREFIX, nextId.getLevel()) + message);
 
         return new TraceStatus(nextId, startTimeMs, message);
     }

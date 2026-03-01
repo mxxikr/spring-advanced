@@ -18,11 +18,11 @@
 
 ### 📝 Curriculum
 
-1. [**예제 만들기**]()
+1. [**예제 만들기**](https://mxxikr.github.io/posts/spring-advanced-example-log-tracer/)
    * 로그 추적기 요구사항 분석 및 V0~V2(파라미터 동기화) 애플리케이션 점진적 개발
 
 
-2. [**쓰레드 로컬 - ThreadLocal**]()
+2. [**쓰레드 로컬 - ThreadLocal**](https://mxxikr.github.io/posts/spring-advanced-thread-local/)
    * 멀티 쓰레드 환경에서의 동시성 문제 원인 파악
    * `ThreadLocal`을 활용하여 쓰레드 안전한 상태 유지 및 로그 추적기 구현
 

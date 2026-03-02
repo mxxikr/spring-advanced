@@ -27,7 +27,7 @@
    * `ThreadLocal`을 활용하여 쓰레드 안전한 상태 유지 및 로그 추적기 구현
 
 
-3. [**템플릿 메서드 패턴과 콜백 패턴**]()
+3. [**템플릿 메서드 패턴과 콜백 패턴**](https://mxxikr.github.io/posts/spring-advanced-template-callback-pattern/)
    * 변하는 핵심 기능과 변하지 않는 부가 기능의 분리
    * 템플릿 메서드 패턴, 전략 패턴, 템플릿 콜백 패턴의 구조적 차이와 적용
 

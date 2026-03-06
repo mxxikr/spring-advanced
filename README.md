@@ -32,27 +32,27 @@
    * 템플릿 메서드 패턴, 전략 패턴, 템플릿 콜백 패턴의 구조적 차이와 적용
 
 
-4. [**프록시 패턴과 데코레이터 패턴**]()
+4. [**프록시 패턴과 데코레이터 패턴**](https://mxxikr.github.io/posts/spring-advanced-proxy-decorator-pattern/)
    * 원본 코드를 수정하지 않고 부가 기능을 추가하는 프록시의 역할 이해
    * 인터페이스 기반 프록시와 구체 클래스 기반 프록시의 적용 및 데코레이터 패턴 실습
 
 
-5. [**동적 프록시 기술**]()
+5. [**동적 프록시 기술**](https://mxxikr.github.io/posts/spring-advanced-dynamic-proxy/)
   * 자바 리플렉션(Reflection)의 이해
   * JDK 동적 프록시(인터페이스 기반)와 CGLIB(구체 클래스 기반)를 활용한 런타임 프록시 객체 생성 로직 구현
 
 
-6. [**스프링이 지원하는 프록시**]()
+6. [**스프링이 지원하는 프록시**](https://mxxikr.github.io/posts/spring-advanced-proxy-factory/)
    * 스프링 `ProxyFactory`를 이용한 프록시 생성 기술 추상화
    * `Pointcut`(적용 위치), `Advice`(부가 기능 로직), `Advisor`(포인트컷+어드바이스)의 개념 이해 및 적용
 
 
-7. [**빈 후처리기**]()
+7. [**빈 후처리기**](https://mxxikr.github.io/posts/spring-advanced-bean-post-processor/)
    * `BeanPostProcessor`를 활용한 프록시 자동 등록 및 컴포넌트 스캔 대상 프록시 적용
    * 스프링이 제공하는 `AnnotationAwareAspectJAutoProxyCreator`의 동작 원리 분석
 
 
-8. [**@Aspect AOP**]()
+8. [**@Aspect AOP**](https://mxxikr.github.io/posts/spring-advanced-aspect-aop/)
    * `@Aspect` 애노테이션을 활용한 직관적이고 편리한 프록시 생성 및 적용
 
 

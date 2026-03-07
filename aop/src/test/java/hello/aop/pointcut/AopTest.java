@@ -1,4 +1,4 @@
-package hello.aop;
+package hello.aop.pointcut;
 
 import hello.aop.order.OrderRepository;
 import hello.aop.order.OrderService;
